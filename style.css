@@ -29,6 +29,10 @@ a:link{
     padding-bottom: 30px; 
 }
 
+.sound{
+    padding-top: 10px;
+}
+
 
 @media (min-width: 768px) {
     iframe{
@@ -42,4 +46,8 @@ a:link{
         width: 900px;
         height: 500px;
     }
+    
+    .sound{
+    padding-top: 40px;
+}
 }
