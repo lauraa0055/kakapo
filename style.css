@@ -1,0 +1,16 @@
+
+P,li{
+font-family: 'Lora', serif;
+}
+
+h2,h3,h4{
+font-family: 'Playfair Display', serif;
+}
+
+h1{
+font-family: 'EB Garamond', serif;
+}
+
+@media (min-width: 768px){
+    
+}
