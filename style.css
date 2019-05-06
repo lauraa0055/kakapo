@@ -1,16 +1,45 @@
-
-P,li{
-font-family: 'Lora', serif;
+P,
+li {
+    font-family: 'Lora', serif;
+    color: #ECF87F;
 }
 
-h2,h3,h4{
-font-family: 'Playfair Display', serif;
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: white;
 }
 
-h1{
-font-family: 'EB Garamond', serif;
+h1 {
+    font-family: 'EB Garamond', serif;
+    color: white;
 }
 
-@media (min-width: 768px){
-    
+a:link{
+    color: #FFFEA8;
+}
+
+div{
+    background-color: #21B6A8; 
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 30px; 
+}
+
+
+@media (min-width: 768px) {
+    iframe{
+        width: 660px;
+        height: 315px;
+    }
+}
+
+@media (min-width: 992px) {
+    iframe{
+        width: 900px;
+        height: 500px;
+    }
 }
