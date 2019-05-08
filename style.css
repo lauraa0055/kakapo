@@ -36,7 +36,7 @@ a:link{
 
 @media (min-width: 768px) {
     iframe{
-        width: 660px;
+        width: 200px;
         height: 315px;
     }
 }
