@@ -51,3 +51,21 @@ a:link{
     padding-top: 40px;
 }
 }
+
+.navbar .navbar-toggler{
+        /*background-color: #FFB6C1;*/
+       /*background-color: #B4CEE7;	*/
+       background-color: #21B6A8;
+        border-color: white;
+} 
+
+
+.navbar-light .navbar-nav .nav-link {
+/*background-color: #96DEF3;*/
+  color: black;
+}
+
+
+
+
+
