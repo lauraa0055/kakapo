@@ -65,6 +65,10 @@ a:link{
   color: black;
 }
 
+#img{
+    border: white solid;
+    border-width: 6px;
+}
 
 
 
