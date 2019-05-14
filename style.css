@@ -34,23 +34,41 @@ a:link{
 }
 
 
-@media (min-width: 768px) {
-    iframe{
-        width: 200px;
-        height: 315px;
-    }
-}
+
+ #video, iframe{
+     width:100%;
+     
+ }
+ 
+  @media (min-width: 576px){
+     #video,iframe{
+         height:300px;
+     }
+ }
+ 
+ @media (min-width: 768px){
+     #video,iframe{
+         height:400px;
+     }
+ }
+
 
 @media (min-width: 992px) {
-    iframe{
-        width: 900px;
-        height: 500px;
-    }
-    
     .sound{
     padding-top: 40px;
 }
+
+ #video,iframe{
+         height:500px;
+     }
+
 }
+
+  @media (min-width: 1200px){
+     #video,iframe{
+         height:600px;
+     }
+ }
 
 .navbar .navbar-toggler{
         /*background-color: #FFB6C1;*/
