@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 P,
 li {
     font-family: 'Lora', serif;
@@ -26,6 +31,7 @@ a:link{
 
 #info2{
     padding-top: 50px;
+    
 }
 
 #bttm{
@@ -37,14 +43,17 @@ a:link{
     padding-bottom: 30px; 
 }
 
+#t21{
+    padding-bottom: 200px;
+    font-size: 30px;
+}
+
 .sound{
     padding-top: 10px;
 }
 
-#p{
-    padding-top: 20px; 
-    padding-bottom: 350px;
-    
+#h21{
+    padding-top: 60px; 
 }
 
 .parallax{
@@ -147,6 +156,7 @@ a:link{
 #img{
     border: white solid;
     border-width: 6px;
+    margin-top: 70px;
 }
 
 
