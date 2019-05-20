@@ -17,12 +17,18 @@
     <script>
         $(function() {
 
+
             $('#img').hover(function() {
-                ('#img').css('border', 'black')
-            })
+                    $('#p').css('color', 'purple')
+                },
+                function() {
+                    $('#p').css('color', '#ECF87F')
+                }
+            )
 
             $('#img').click(function() {
                 $('#img').attr('src', 'img/adorable.jpg')
+                $('#p').hide()
             })
         })
     </script>
@@ -58,141 +64,158 @@
 
         <div class='container'>
             <div class='row'>
-                <div class='col-md-5'>
+                <div class='col-md-6'>
                     <img src='img/kakapo.jpg' width='330px' id='img'>
                 </div>
 
                 <div class='col-md-6' id='info'>
                     <h2>What is a Kakapo?</h2>
                     <p>The kakapo is a endangered species of bird that has been here since it has been discovered in 1978. This species of bird is also known as the "owl-parrot".</p>
-                    <h4>Appearence</h4>
-                    <p> The Kakapo's appearance is very unique. The kakapo has a pale owl-like face, which gives it the nickname "owl-parrot". <br> The kakapo basically looks like an oversized avocado.
-                    </p>
+                    <br>
+                    <p id='p'> click the image for a surprise!</p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='parallax'>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-12'>
+
+                <h4 id='info2'>Appearence</h4>
+                <p> The Kakapo's appearance is very unique. The kakapo has a pale owl-like face, which gives it the nickname "owl-parrot". <br> The kakapo basically looks like an oversized avocado.
+                </p>
+
+                <h3>Behavior</h3>
+                <p> The Kakapo is nocturnal and solitary. The kakapo is so solitary of other animals that they occupy the same home they have for a long time. Not only are they solitary but these birds are flightless birds. They mostly stay in the ground
+                    and walk. Although if they see some sort of fruit or seeds on a tree, they would indeed climb the tree, and would often leap from tree to tree and flap their wings. The kakapo get’s the “owl” part from it’s appearance but it gets the
+                    “parrot” part from its behavior. This is because they have a unique personality.
+                </p>
+            </div>
+
+            <div class='container'>
+                <h3>Diet</h3>
+                <p>The kakapo bird is mainly a vegetarian bird.<br> They eat:</p>
+                <ul>
+                    <li>Leaves</li>
+                    <li> Buds </li>
+                    <li>Flowers</li>
+                    <li>Bart</li>
+                    <li>Roots</li>
+                    <li>Fruits</li>
+                    <li>Certain seeds</li>
+                </ul>
+
+                <p>The kakapo eats these different types of food depending on the the season.</p>
             </div>
 
             <div class='row'>
-
-                <div class='col-md-12'>
-                    <h3>Behavior</h3>
-                    <p> The Kakapo is nocturnal and solitary. The kakapo is so solitary of other animals that they occupy the same home they have for a long time. Not only are they solitary but these birds are flightless birds. They mostly stay in the ground
-                        and walk. Although if they see some sort of fruit or seeds on a tree, they would indeed climb the tree, and would often leap from tree to tree and flap their wings. The kakapo get’s the “owl” part from it’s appearance but it gets
-                        the “parrot” part from its behavior. This is because they have a unique personality.
-                    </p>
+                <div class='col-md-8'>
+                    <h3> Male vs Female</h3>
+                    <p>The voices of the female and male are kind of different. The main difference is that the male has a more recognizable voice than a female because it does these noises more frequently. <br> The female only does a loud high pitch skraak!
+                        Even then, male kakapo's do that sound too, so it's a 50/50 percent chance that it will be a female if you hear that sound. <br><br> On the other hand, males make not just the high pitched skraak, but they also make a deep booming
+                        and wheezing call.<br> Listen to these sound with the audio </p>
                 </div>
 
-                <div class='container'>
-                    <h3>Diet</h3>
-                    <p>The kakapo bird is mainly a vegetarian bird.<br> They eat:</p>
-                    <ul>
-                        <li>Leaves</li>
-                        <li> Buds </li>
-                        <li>Flowers</li>
-                        <li>Bart</li>
-                        <li>Roots</li>
-                        <li>Fruits</li>
-                        <li>Certain seeds</li>
-                    </ul>
-
-                    <p>The kakapo eats these different types of food depending on the the season.</p>
-                </div>
-
-                <div class='row'>
-                    <div class='col-md-8'>
-                        <h3> Male vs Female</h3>
-                        <p>The voices of the female and male are kind of different. The main difference is that the male has a more recognizable voice than a female because it does these noises more frequently. <br> The female only does a loud high pitch
-                            skraak! Even then, male kakapo's do that sound too, so it's a 50/50 percent chance that it will be a female if you hear that sound. <br><br> On the other hand, males make not just the high pitched skraak, but they also make
-                            a deep booming and wheezing call.<br> Listen to these sound with the audio </p>
-                    </div>
-
-                    <div class='col-md-4 sound'>
-                        <p>Booming Sound:</p>
-                        <audio controls>
+                <div class='col-md-4 sound'>
+                    <p>Booming Sound:</p>
+                    <audio controls>
                             <source src='audio/booming.mp3' type="audio/ogg"> 
                         </audio>
 
 
-                        <p>Skraak:</p>
-                        <audio controls>
+                    <p>Skraak:</p>
+                    <audio controls>
                             <source src='audio/skraak.mp3' type='audio/ogg'>
                         </audio>
 
-                        <p>Snark:</p>
-                        <audio controls>
+                    <p>Snark:</p>
+                    <audio controls>
                             <source src='audio/snark.mp3'>
                         </audio>
 
-                    </div>
-
                 </div>
 
-                <div class='container col-md-12'>
-                    <h3>Enviroment</h3>
-                    <p>They are located in the New Zealand's forest. <br> Considering the fact that they are flightless birds and climg trees. The kakapo mainly resides in the forest.</p>
-                </div>
-
-            </div>
-
-            <div class='container col-md-12' id='why'>
-                <h2>Why are they endangered?</h2> <br>
-
-                <h4>European colonization </h4>
-                <p>This is what started it. When the colonies came over to the united states and other parts of the opposite hemisphere, they unfortunetly brought over new predators.<br> Because the Kakapo hide and survive from flight based predators they
-                    did not know how to hide from land predators that were brought over.
-                </p>
-                <h4>Predators</h4>
-                <p> As said before, because the Kakapo was accostum to hiding from flight based predators. They were not ready to confront land based predators. <br> Kakapo usually hide in bushes and camoflauge with the green of the forest, but because they
-                    have a certain smell; Predators that use their nose for hunting find them easily. <br> This leads to the adult Kakapo's becoming vulnerable to cats and souts.<br> The females incubate eggs and raise the children alone. They stay away
-                    from the nest for a while which make the chicks vulnerable to anything especially since they smell.
-                    <br> This leads to the eggs and Chicks being killed by rats. <br>
-                </p>
-
-                <h4> Low Fertility</h4>
-                <p> The Kakapo has a specific way of mating which makes it difficult for fertility to happen. <br> The Kakapo breeds only in the fall, when there is enough fruit in the trees. Which is basically 2-3 years. <br> Males only help in making the
-                    baby Kakapo, they do not help raise them. Ontop of that, not only are 1-4 eggs are made, but their nest is underground. Because they are underground, it shows why rats are so easily able to eat the vulnerable chicks and eggs.</p>
             </div>
 
             <div class='container col-md-12'>
-                <h2> What people are doing right now </h2>
-                <h3> Genetic Rescue</h3>
-                <p>Sciencetist are trying to get the genetics/DNA of the Kakapo in order to get more information on them and eventually help breed them. <br> The more information Sciencetist get, the more they understand the building blocks of the kakapo
-                    and help breed it. <br>
-                    <br> Sciencetist are also taking the Kakapo's bird into another island that does not have the current predators hunting them down. In that island they make sure to keep track of the Kakapo and the Kakapo's health. <br>
-                    <br> Unfortunately this is not working entirely.The island they are in still have predators that can hunt them down. The Kakapo do not mate often either causing the numbers to increase in a slow rate.
-                </p>
+                <h3 id='info2'>Enviroment</h3>
+                <p id='bttm'>They are located in the New Zealand's forest. <br> Considering the fact that they are flightless birds and climg trees. The kakapo mainly resides in the forest.</p>
             </div>
 
-            <div class='container col-md-12' id='you'>
-                <h2> What you can do to help</h2>
-                <h3> You can (figuratively) adopt a Kakapo</h3>
-                <p> When you adopt a kakapo, you do many things for that Kakapo like:</p>
-                <ul>
-                    <li>Funding for your Kakapo's health management</li>
-                    <li>Help get Food for your Kakapo</li>
-                    <li>You help the sciecetist change the transmitter (it sends sciencetist messages/information about the Kakapo)</li>
-                </ul>
-                <p> Do not worry, when you adopt a Kakapo you get in return!!<br> Depending on how much money you give based on adoption, you’ll get small prizes like:
-                </p>
-                <ul>
-                    <li>A cuddly plushie</li>
-                    <li>Stickers</li>
-                    <li>A Bookmark</li>
-                    <li>A certificate</li>
-                </ul>
-
-                <p>Ofcourse, you do not need to adopt a Kakapo in order to help it. You can do many things. <br> You can volunteer in helping out the Kakapo or Donate to help the Kakapo Species. <br>
-                    <a href='https://www.doc.govt.nz/our-work/kakapo-recovery/get-involved/'>Click here to help out the Kakapo</a>
-                </p>
-                <p> Here is a Video that gives more information on the Kakapo. <br> But if you are interested in learning more, I suggest you make your own research. </p>
-            </div>
-            <div class='col-lg-12' id='video'>
-                <iframe  src="https://www.youtube.com/embed/hV6-oNRSqCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
         </div>
+    </div>
 
-        <div class='container'>
-            footer
-        </div>
+    <div class='parallax2'>
+    </div>
+
+
+    <div class='container col-md-12' id='why'>
+        <h2 id='info2'>Why are they endangered?</h2> <br>
+
+        <h4>European colonization </h4>
+        <p>This is what started it. When the colonies came over to the united states and other parts of the opposite hemisphere, they unfortunetly brought over new predators.<br> Because the Kakapo hide and survive from flight based predators they did not
+            know how to hide from land predators that were brought over.
+        </p>
+        <h4>Predators</h4>
+        <p> As said before, because the Kakapo was accostum to hiding from flight based predators. They were not ready to confront land based predators. <br> Kakapo usually hide in bushes and camoflauge with the green of the forest, but because they have
+            a certain smell; Predators that use their nose for hunting find them easily. <br> This leads to the adult Kakapo's becoming vulnerable to cats and souts.<br> The females incubate eggs and raise the children alone. They stay away from the nest
+            for a while which make the chicks vulnerable to anything especially since they smell.
+            <br> This leads to the eggs and Chicks being killed by rats. <br>
+        </p>
+
+        <h4> Low Fertility</h4>
+        <p> The Kakapo has a specific way of mating which makes it difficult for fertility to happen. <br> The Kakapo breeds only in the fall, when there is enough fruit in the trees. Which is basically 2-3 years. <br> Males only help in making the baby Kakapo,
+            they do not help raise them. Ontop of that, not only are 1-4 eggs are made, but their nest is underground. Because they are underground, it shows why rats are so easily able to eat the vulnerable chicks and eggs.</p>
+    </div>
+
+    <div class='container col-md-12'>
+        <h2> What people are doing right now </h2>
+        <h3> Genetic Rescue</h3>
+        <p id='bttm'>Sciencetist are trying to get the genetics/DNA of the Kakapo in order to get more information on them and eventually help breed them. <br> The more information Sciencetist get, the more they understand the building blocks of the kakapo and help
+            breed it. <br>
+            <br> Sciencetist are also taking the Kakapo's bird into another island that does not have the current predators hunting them down. In that island they make sure to keep track of the Kakapo and the Kakapo's health. <br>
+            <br> Unfortunately this is not working entirely.The island they are in still have predators that can hunt them down. The Kakapo do not mate often either causing the numbers to increase in a slow rate.
+        </p>
+    </div>
+
+    <div class='parallax3'>
+    </div>
+
+    <div class='container col-md-12' id='you'>
+        <h2 id='info2'> What you can do to help</h2>
+        <h3> You can (figuratively) adopt a Kakapo</h3>
+        <p> When you adopt a kakapo, you do many things for that Kakapo like:</p>
+        <ul>
+            <li>Funding for your Kakapo's health management</li>
+            <li>Help get Food for your Kakapo</li>
+            <li>You help the sciecetist change the transmitter (it sends sciencetist messages/information about the Kakapo)</li>
+        </ul>
+        <p> Do not worry, when you adopt a Kakapo you get in return!!<br> Depending on how much money you give based on adoption, you’ll get small prizes like:
+        </p>
+        <ul>
+            <li>A cuddly plushie</li>
+            <li>Stickers</li>
+            <li>A Bookmark</li>
+            <li>A certificate</li>
+        </ul>
+
+        <p>Ofcourse, you do not need to adopt a Kakapo in order to help it. You can do many things. <br> You can volunteer in helping out the Kakapo or Donate to help the Kakapo Species. <br>
+            <a href='https://www.doc.govt.nz/our-work/kakapo-recovery/get-involved/'>Click here to help out the Kakapo</a>
+        </p>
+        <p> Here is a Video that gives more information on the Kakapo. <br> But if you are interested in learning more, I suggest you make your own research. </p>
+    </div>
+    <div class='col-lg-12' id='video'>
+        <iframe src="https://www.youtube.com/embed/hV6-oNRSqCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <div class='container'>
+        footer
+    </div>
 
 
 </body>

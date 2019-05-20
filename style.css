@@ -24,6 +24,14 @@ a:link{
     background-color: #21B6A8; 
 }
 
+#info2{
+    padding-top: 50px;
+}
+
+#bttm{
+    padding-bottom: 50px;
+}
+
 .title{
     text-align: center;
     padding-bottom: 30px; 
@@ -31,6 +39,54 @@ a:link{
 
 .sound{
     padding-top: 10px;
+}
+
+#p{
+    padding-top: 20px; 
+    padding-bottom: 350px;
+    
+}
+
+.parallax{
+    /* The image used */
+  background-image: url("img/boom.jpg");
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2{
+    /* The image used */
+  background-image: url("img/b2.jpg");
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3{
+    /* The image used */
+  background-image: url("img/b5.jpg");
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -67,6 +123,11 @@ a:link{
   @media (min-width: 1200px){
      #video,iframe{
          height:600px;
+     }
+     
+     #img{
+         width:500px;
+         
      }
  }
 
