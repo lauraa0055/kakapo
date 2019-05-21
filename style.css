@@ -110,10 +110,6 @@ a:link{
          height:300px;
      }
      
-     #img{
-         width:330px;
-         margin: auto;
-     }
  }
  
  @media (min-width: 768px){
@@ -121,10 +117,7 @@ a:link{
          height:400px;
      }
      
-      #img{
-         width:330px;
-         margin: auto;
-     }
+    
  }
 
 
@@ -151,8 +144,17 @@ a:link{
  }
  
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .parallax,.parallax2, .parallax3 {
     background-attachment: scroll;
+  }
+  
+  #img{
+      width: 300px;
+      
+  }
+  
+  #t21{
+      font-size: 20px;
   }
 }
 
