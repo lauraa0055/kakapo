@@ -140,13 +140,11 @@ a:link{
      }
  }
  
- @media (max-width: 768px){
-     .parallax, .parallax2, .parallax3{
-          top: 0 !important;
-		height: 100% !important;
-		width: 100% !important;
-     }
- }
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 
 .navbar .navbar-toggler{
         /*background-color: #FFB6C1;*/
