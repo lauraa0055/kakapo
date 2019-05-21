@@ -139,6 +139,12 @@ a:link{
          
      }
  }
+ 
+ @media (max-width: 768px){
+     .parallax, .parallax2, .parallax3{
+          background-attachment: inherit;
+     }
+ }
 
 .navbar .navbar-toggler{
         /*background-color: #FFB6C1;*/
