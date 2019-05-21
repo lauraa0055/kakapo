@@ -109,11 +109,19 @@ a:link{
      #video,iframe{
          height:300px;
      }
+     
+     #img{
+         width:330px;
+     }
  }
  
  @media (min-width: 768px){
      #video,iframe{
          height:400px;
+     }
+     
+      #img{
+         width:330px;
      }
  }
 
