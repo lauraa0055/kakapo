@@ -142,7 +142,9 @@ a:link{
  
  @media (max-width: 768px){
      .parallax, .parallax2, .parallax3{
-          background-attachment: inherit;
+          top: 0 !important;
+		height: 100% !important;
+		width: 100% !important;
      }
  }
 
